@@ -1,3 +1,6 @@
+#ifndef _lzw_h
+#define _lzw_h
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -9,3 +12,5 @@ public:
     static std::string decompress(std::vector<int> vec);
     static void decompress(std::istream& input, std::ostream& output);
 };
+
+#endif
